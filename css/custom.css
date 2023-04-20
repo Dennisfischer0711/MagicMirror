@@ -1,0 +1,37 @@
+/* MagicMirror² Custom CSS Sample
+ *
+ * Change color and fonts here.
+ *
+ * Beware that properties cannot be unitless, so for example write '--gap-body: 0px;' instead of just '--gap-body: 0;'
+ *
+ * MIT Licensed.
+ */
+
+/* Uncomment and adjust accordingly if you want to import another font from the google-fonts-api: */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap'); */
+
+
+ 
+.weather{
+	zoom:125%;	
+}
+
+.MMM-NowPlayingOnSpotify {
+	zoom: 80%;
+}
+.MMM-HH-LocalTransport{
+	max-width:300px;
+}
+.MMM-PushBulletNotifications{
+	max-width:400px;
+}
+
+.compliments .xlarge {
+font-size: 75px;
+}
+body {
+margin: 30px;
+position: absolute;
+height: calc(100% - 50px);
+width: calc(100% - 50px);
+}
